@@ -1,0 +1,51 @@
+1. **`pip install django-plotly-dash`**  
+   Installs the `django-plotly-dash` package to integrate Dash apps with Django.
+
+2. **`django-admin startproject myproject`**  
+   Creates a new Django project named `myproject`.
+
+3. **`cd .\myproject`**  
+   Changes the directory to the `myproject` folder.
+
+4. **`python manage.py startapp myapp`**  
+   Creates a new Django app called `myapp`.
+
+5. **`python manage.py migrate`**  
+   Applies the initial database migrations (creates necessary tables).
+
+6. **`python manage.py runserver`**  
+   Starts the Django development server to view the app.
+
+7. **`pip install django`**  
+   Installs the Django framework.
+
+8. **`python manage.py collectstatic`**  
+   Collects static files (e.g., CSS, JS) from apps and packages into one directory.
+
+9. **`pip install django-extensions`**  
+   Installs `django-extensions`, a collection of useful Django management tools.
+
+10. **`python manage.py makemigrations`**  
+    Creates new migrations based on changes made to the models.
+
+11. **`pip install pandas`**  
+    Installs the `pandas` library for data manipulation and analysis.
+
+12. **`pip install plotly`**  
+    Installs `plotly`, a graphing library used in Dash for creating visualizations.
+
+13. **`pip install dash_bootstrap_components`**  
+    Installs Bootstrap components for Dash to enhance the app’s layout.
+
+14. **`pip install dpd_static_support`**  
+    Installs additional components that help serve static files in Dash within Django.
+
+15. **`pip install dpd_components`**  
+    Installs `dpd_components`, additional components for Dash integration in Django.
+
+16. **`pip install whitenoise`**  
+    Installs `whitenoise`, a tool for serving static files in production.
+
+17. **`pip show dash`**  
+    Shows details about the installed Dash package (e.g., version, location).
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Dash Charts</title>
+</head>
+<body>
+
+    <!-- <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: auto; /* Allow the height of the body to grow with the content */
+            min-height: 100%; /* Ensure it takes at least full page height */
+            overflow: visible; /* Allow the content to expand */
+        }
+    
+        /* Ensure the iframe grows with the content */
+        .plotly-dash-iframe {
+            width: 100%;
+            height: 100vh; /* Full height of the viewport */
+            min-height: 100%; /* Allow iframe to grow with the content */
+            border: none; /* Remove borders if any */
+        }
+    </style> -->
+
+    
+    <h1>Test Dash Charts</h1>
+
+    <!-- Embed the Dash app here -->
+    {% load plotly_dash %}
+    {% plotly_app name="TestDashApp" ratio=0.5 %}
+</body>
+</html>
+
